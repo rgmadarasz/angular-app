@@ -7,13 +7,15 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DemoMaterialModule} from './material-module';
 
 import {Index} from './app.component';
-import { BookComponent} from './books.component'
+import { BookComponent } from './books.component'
+import { ContactComponent } from './contact.component'
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
 
 @NgModule({
   
   imports: [
+    RouterModule.forRoot(appRoutes),
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
@@ -22,8 +24,8 @@ import { appRoutes } from './app.routes';
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
-  entryComponents: [Index, BookComponent],
-  declarations: [Index, BookComponent],
+  entryComponents: [Index, BookComponent, ContactComponent],
+  declarations: [Index, BookComponent, ContactComponent],
   bootstrap: [Index],
   providers: []
 })
