@@ -1,9 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-    template: `<h1>Welcome!</h1>
-              <p>This is Contact Component </p>
-             `
+    template: `<h1>KONTAKTOK</h1>`
 })
 
 export class ContactComponent {

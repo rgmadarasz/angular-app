@@ -9,6 +9,8 @@ import {DemoMaterialModule} from './material-module';
 import {Index} from './app.component';
 import { BookComponent } from './books.component'
 import { ContactComponent } from './contact.component'
+import { HistoryComponent } from './history.component'
+import { SendComponent } from './send.component'
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
 
@@ -24,8 +26,8 @@ import { appRoutes } from './app.routes';
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
-  entryComponents: [Index, BookComponent, ContactComponent],
-  declarations: [Index, BookComponent, ContactComponent],
+  entryComponents: [Index, BookComponent, ContactComponent, HistoryComponent, SendComponent],
+  declarations: [Index, BookComponent, ContactComponent, HistoryComponent, SendComponent],
   bootstrap: [Index],
   providers: []
 })
