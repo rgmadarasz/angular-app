@@ -1,0 +1,29 @@
+
+<mat-sidenav-container class="container">
+  <mat-sidenav class="sidenav" #sidenav mode="side" [(opened)]="opened" (opened)="events.push('open!')"
+               (closed)="events.push('close!')">
+    <p><img src="https://i.imgur.com/zT8BTBs.png"></p>
+    <button class="b1"> <img src="https://i.imgur.com/YsMwo2Y.png">&nbsp; Könyvek</button>
+    <button class="b1"> <img src="https://i.imgur.com/w6sYQDU.png">&nbsp; Kapcsolatok</button>
+    <button class="b1"> <img src="https://i.imgur.com/kUR99y8.png">&nbsp; Előzmények</button>
+    <hr class="line">
+    <button class="b1"> <img src="https://i.imgur.com/RxsxkgG.png">&nbsp; Kiküldés</button>
+    <button class="b11"> <mat-icon class="mat-icon" >arrow_back</mat-icon>&nbsp; Kijelentkezés</button>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary" class="toolbar">
+    <button mat-icon-button class="b2" (click)="sidenav.toggle()" ><mat-icon class="hamb">menu</mat-icon></button>
+    <h1 class="topbar">&nbsp; DEBRECENI EGYETEM</h1>
+  </mat-toolbar>
+  <div class="main">
+     <!-- <router-outlet></router-outlet> -->
+  </div>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+<!-- Copyright 2019 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
