@@ -4,7 +4,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatNativeDateModule} from '@angular/material';
 import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {DemoMaterialModule} from './material-module';
+import {MaterialModule} from './material-module';
+
 
 import {Index} from './app.component';
 import { BookComponent } from './books.component'
@@ -22,7 +23,7 @@ import { appRoutes } from './app.routes';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    DemoMaterialModule,
+    MaterialModule,
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
