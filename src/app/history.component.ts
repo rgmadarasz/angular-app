@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-    template: `<h1>ELŐZMÉNYEK</h1>`
+    templateUrl: '/pages/history.html'
 })
 
 export class HistoryComponent {
