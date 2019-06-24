@@ -24,7 +24,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 
 @Component({
     styleUrls: ['./pages/books.css'],
-    templateUrl: './pages/books.html'
+    templateUrl: 'books.component.html'
 })
 
 export class BookComponent {

@@ -8,6 +8,7 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MaterialModule} from './app/material-module';
 
 import { AppModule } from './app/app.module';
 

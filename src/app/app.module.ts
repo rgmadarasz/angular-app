@@ -5,6 +5,7 @@ import {MatNativeDateModule} from '@angular/material';
 import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MaterialModule} from './material-module';
+import {MatTableModule} from '@angular/material/table';
 
 
 import {Index} from './app.component';
@@ -26,6 +27,8 @@ import { appRoutes } from './app.routes';
     MaterialModule,
     MatNativeDateModule,
     ReactiveFormsModule,
+    MatTableModule
+    
   ],
   entryComponents: [Index, BookComponent, ContactComponent, HistoryComponent, SendComponent],
   declarations: [Index, BookComponent, ContactComponent, HistoryComponent, SendComponent],

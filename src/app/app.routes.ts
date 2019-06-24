@@ -1,5 +1,8 @@
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
+
+
+import {Index} from './app.component';
 import { BookComponent} from './books.component'
 import { ContactComponent} from './contact.component'
 import { HistoryComponent } from './history.component'
