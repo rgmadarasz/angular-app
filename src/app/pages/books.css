@@ -15,24 +15,12 @@ table {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn1 {
-  position: left;
-
-  display: block;
-  padding: 0;
-
-  overflow: hidden;
-
-  border-width: 0;
-  outline: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-  
-  background-color: #3c423f;
-  color: #ecf0f1;
+.mat-row:hover {
+  background-color: rgba(99, 96, 124, 0.11);
 }
 
 .btn2 {
+  font-family: 'Ropa Sans', sans-serif;
   position: left;
 
   display: block;
@@ -46,7 +34,7 @@ table {
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   
-  background-color: #3c423f;
+  background-color: #4d4d52;
   color: #ecf0f1;
 }
 
