@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-    template: `<h1>KÖNYVEK</h1>`
+    templateUrl: '/pages/books.html'
 })
 
 export class BookComponent {
