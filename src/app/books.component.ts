@@ -9,6 +9,13 @@ export interface PeriodicElement {
   symbol: string;
 }
 
+export interface Users {
+  name: string;
+  id: number;
+  username: string;
+  email: string;
+}
+
 const ELEMENT_DATA: PeriodicElement[] = [
   {position: 'SCOLAR KIADÓ KFT.', name: 'Felsőbb matematika', weight: 9789635090013, symbol: 'Obádovics J. Gyula - Szarka Zoltán'},
   {position: '2', name: 'Helium', weight: 4.0026, symbol: 'He'},
@@ -27,6 +34,10 @@ export class BookComponent {
   displayedColumns: string[] = ['select', 'position', 'name', 'weight', 'symbol'];
   dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
   selection = new SelectionModel<PeriodicElement>(true, []);
+
+  posts: any[];
+
+  
 
   /** Whether the number of selected elements matches the total number of rows. */
   isAllSelected() {
