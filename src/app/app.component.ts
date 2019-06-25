@@ -9,5 +9,16 @@ import {Component} from '@angular/core';
 export class Index {
   events: string[] = [];
   opened: boolean;
-
+  disableClose:boolean;
+  closeEvent:boolean;
+  w = window.innerWidth;
+      constructor(){
+        if (this.w > 450) {
+        this.disableClose=true;
+        this.closeEvent=true;
+      } else {
+        this.disableClose=false;
+        this.closeEvent=false;
+      }
+      }
 }
